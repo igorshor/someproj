@@ -1,0 +1,9 @@
+<div class="group">
+    <div class="header">
+        <span>{{vm.capitalizeHeader}}</span>
+        <button>+ SHOW ALL</button>
+    </div>
+    <div class="items">
+        <item class="group-item" ng-class="{left:$even}" ng-repeat="i in vm.itemsToShow" data="i"></item>
+    </div>
+</div>
