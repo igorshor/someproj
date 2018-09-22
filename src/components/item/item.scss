@@ -1,0 +1,51 @@
+.item{
+    display: flex;
+    &:hover{
+        box-shadow: 3px 6px 15px 0px rgba(0,0,0,0.2);
+        cursor: pointer;
+
+        &>div{
+            .header{
+                color:#4ac9a9;
+            }
+
+            .item-content{
+                .transclude{
+                    .my-btn{
+                        background-color: #4ac9a9;
+                        color: white;
+                    }
+                }
+            }
+        }
+    }
+    box-sizing: border-box;
+    border: 1px solid #e7e7e7;
+    background-color: #ffffff;
+
+    &>div{
+        display: flex;
+        flex-direction: column;
+        padding: 25px;
+        height: 100%;
+
+        .header{
+            font-size: 14px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .item-content{
+            display: flex;
+            flex: 1;
+            flex-direction: column;
+            justify-content: space-between;
+
+            .blabla{
+                line-height: 14px;
+                font-size: 12px;
+                overflow: hidden;
+            }
+        }
+    }
+}

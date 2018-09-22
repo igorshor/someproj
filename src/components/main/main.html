@@ -1,2 +1,4 @@
-<div class="main">
-    <group ng-repeat="i in vm.items" lines="2" items="i.items" header="{{i.header}}"></group>
+<div class="main page">
+    <carousel items="vm.categories" header="{{i.header}}"></carousel>
+    <group ng-repeat="i in vm.categories" lines="2" category="i" id="{{'cat' + i.id}}" on-show-all="vm.goto(id)" theme="{{$first ? 'dark' : ''}}"></group>
+</div>

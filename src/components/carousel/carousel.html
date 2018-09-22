@@ -1,0 +1,21 @@
+<div class="carousel">
+    <div class="header">
+        <span>SELECT CATEGORY TO INVEST</span>
+    </div>
+    <div class="nav-btn left">
+        <button class="my-btn" ng-click="vm.slide(true)">></button>
+    </div>
+    <div class="content">
+        <div class="items">
+            <item class="carousel-item" ng-repeat="i in vm.itemsToShow" data="i" ng-click="vm.goto(i.id)">
+                {{i.traders + ' traders'}}
+            </item>
+        </div>
+        <div class="indicator">
+            <div ng-repeat="i in vm.items" ng-class="{shown:i.shown}"></div>
+        </div>
+    </div>
+    <div class="nav-btn right">
+        <button class="my-btn" ng-click="vm.slide(false)">></button>
+    </div>
+</div>

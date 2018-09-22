@@ -1,9 +1,11 @@
-<div class="group">
+<div class="{{'group ' + vm.theme}}">
     <div class="header">
         <span>{{vm.capitalizeHeader}}</span>
-        <button>+ SHOW ALL</button>
+        <button class="my-btn" ng-click="vm.onShowAll({id:vm.id})" ng-if="!vm.showAll">+ SHOW ALL</button>
     </div>
     <div class="items">
-        <item class="group-item" ng-class="{left:$even}" ng-repeat="i in vm.itemsToShow" data="i"></item>
+        <item class="group-item" ng-class="{left:$even}" ng-repeat="i in vm.itemsToShow" data="i">
+                <button class="my-btn">START COPY</button>
+        </item>
     </div>
 </div>

@@ -20,16 +20,25 @@ module.exports = {
             minimize: true
           }
         }],
-      },
-      {
-        test: /\.tsx?$/,
+      }, {
+        test: /\.ts?$/,
         loader: "ts-loader"
-      },
-      {
-        test: /\.png$/,
-        loader: 'file-loader'
-      },
-      {
+      }, {
+        test: /\.(eot|svg|ttf|woff|woff2)$/,
+        use: [{
+          loader: "file-loader"
+        }],
+      }, {
+        test: /\.(png|jpg|gif)$/i,
+        use: [
+          {
+            loader: 'url-loader',
+            options: {
+              limit: 8192
+            }
+          }
+        ]
+      }, {
         test: /\.scss$/,
         use: [
           "style-loader",

@@ -1,9 +1,14 @@
 {
     "compilerOptions": {
         "module": "commonjs",
+        "target": "es5",
         "noImplicitAny": true,
         "removeComments": true,
         "preserveConstEnums": true,
-        "sourceMap": true
+        "sourceMap": true,
+        "lib": [
+            "es5",
+            "es2016"
+        ]
     }
 }

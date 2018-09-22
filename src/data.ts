@@ -1,182 +1,236 @@
 export const data = {
     "items": [
         {
-            "categoryName": "category 1",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "1",
+            "header": "category 1",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/1.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/1.png"),
                 }
             ]
         },
         {
-            "categoryName": "category 2",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "2",
+            "header": "category 2",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/2.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 }
             ]
         },
         {
-            "categoryName": "category 3",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "3",
+            "header": "category 3",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/3.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/3.png"),
                 }
             ]
         },
         {
-            "categoryName": "category 4",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "4",
+            "header": "category 4",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/4.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 }
             ]
         },
         {
-            "categoryName": "category 5",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "5",
+            "header": "category 5",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/2.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/2.png"),
                 }
             ]
         },
         {
-            "categoryName": "category 6",
-            "header": "a aaa aaa aaaaaaaaaaaaa",
+            "id": "6",
+            "header": "category 6",
+            "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+            "img":require("../assets/4.png"),
+            "traders": "142.323.22.1337",
             "items": [
                 {
                     "header": "H 1",
-                    "blabla": "a aaa aaa aaaaaaaaaaaaa"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 2",
-                    "blabla": "bbbb b b bbbbbbbbb bbbbbbbbbbbbbbbbbbbb"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 3",
-                    "blabla": "acccccc ccccccccccccc ccccccccccccc"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 4",
-                    "blabla": "ddddddddddd dddd ddd dd d d d d d d"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 5",
-                    "blabla": "eeee e e "
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 },
                 {
                     "header": "H 6",
-                    "blabla": "ffffffffffffffffffff fffffffffffffffffffff fffffffffffffffffff"
+                    "blabla": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia minus consequatur fuga exercitationem ad consequuntur, maxime explicabo aperiam at debitis et deleniti quidem amet sequi adipisci earum deserunt incidunt culpa!",
+                    "img":require("../assets/4.png"),
                 }
             ]
         }

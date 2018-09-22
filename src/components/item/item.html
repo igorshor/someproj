@@ -1,11 +1,16 @@
 <div class="item">
-    <img ng-src="{{vm.data.imgSrc}}">
+    <img ng-src="{{vm.data.img}}">
     <div>
         <div class="header">
             {{vm.data.header}}
         </div>
-        <div class="blabla">
-            {{vm.data.blabla}}
+        <div class="item-content">
+            <div class="blabla">
+                {{vm.data.blabla}}
+            </div>
+            <div class="transclude">
+                <ng-transclude></ng-transclude>
+            </div>
         </div>
     </div>
 </div>
